@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@0,700;1,700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: all .5s ease-in;
+    transition: opacity .7s ease-in;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.cst-element-fade-hidden {
+    opacity: 0;
+}
+
+.cst-element-fade-in {
+    opacity: 1;
+}
+
+hr {
+    margin: 0;
+}
+
+.cst-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+}
+
+
+.cst-nav-ani {
+    transition: box-shadow .3s ease-in;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #0075FF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #0067dd;
+
+
+}
+
+.dropdown-item:hover {
+    color: #0067dd;
+}
+
+.cst-cf {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.cst-sf {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.cst-header-title {
+    font-size: 7rem;
+}
+
+.cst-header-slogan {
+    font-size: 2.3rem;
+}
+
+.cst-header-img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+/* about section*/
+.about-us {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    padding-top: 5rem;
+}
+
+.cst-about-title {
+    font-size: 2.25rem;
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+    color: #000;
+    border-bottom: 3px solid #0075FF;
+}
+
+.cst-about-slogan {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cst-abt-video {
+    width: 100%;
+    height: 30rem;
+}
+
+.cst-abt-video-container {
+    min-height: 31rem;
+}
+
+/* Tours Section*/
+.cst-tours-title {
+    font-size: 2.25rem;
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+    margin-top: 4rem;
+    color: #000;
+    border-bottom: 3px solid #0075FF;
+}
+
+.cst-tours-slogan {
+    font-size: 1.5rem;
+}
+
+.cst-tours-card-title {
+    color: #0067dd;
+    font-size: 1.5rem;
+}
+
+.cst-wtd-card-img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 30rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.cst-tours-card {
+    background-color: #ffffff;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+/* tickets section*/
+.cst-tickets-header {
+    font-size: 1.5rem;
+    background-color: #091b30;
+}
+
+/*modals*/
+
+.cst-modal-content-titles {
+    color: #0067dd;
+}
+
+/*testimonials*/
+
+
+.cst-testimonials-title {
+    font-size: 2.25rem;
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+    margin-top: 4rem;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #ffffff;
+}
+
+.cst-testimonials-slogan {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.cst-slider {
+    border-radius: 1rem;
+    margin: auto;
+    width: 50%;
+}
+
+/*form*/
+.cst-form-title {
+    font-size: 2.25rem;
+    width: fit-content;
+    margin: auto;
+    color: #000;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #0075FF;
+}
+
+.cst-btn-form-confirm {
+    padding: 0.5rem 4rem;
+    border-radius: .5rem;
+}
+
+.step {
+    display: none;
+}
+
+#success {
+    display: none;
+}
+
+/*footer*/
+.upper-footer {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:986px) {
+    .cst-tours-card {
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+    .cst-wtd-card-img {
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cst-header-title {
+        font-size: 5rem;
+    }
+
+    .cst-header-slogan {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .cst-text-hidden {
+        display: none;
+    }
+
+    .cst-header-title {
+        font-size: 3rem;
+    }
+
+    .cst-header-slogan {
+        font-size: 2rem;
+    }
+
+    .cst-about-title {
+        font-size: 2rem;
+        margin-bottom: 2.25rem;
+        margin-top: 3rem;
+    }
+
+    .cst-about-slogan {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cst-header-card {
+        text-align: center;
+    }
+
+    .about-us p {
+        font-size: 1rem;
+    }
+
+    .cst-about-title {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+        margin-top: 2rem;
+    }
+
+    .cst-slider {
+        border-radius: 1rem;
+        margin: auto;
+        width: 100%;
+    }
+
+    #q-box__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #q-box__buttons button {
+        margin: 0;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    .lower-footer div p {
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-height:569px) {
+    .cst-header-img {
+        height: 130vh;
+        object-fit: cover;
+        width: 100%;
+    }
+}
